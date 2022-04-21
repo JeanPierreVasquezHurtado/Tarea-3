@@ -50,3 +50,21 @@ class EcuacionCuadratica
     
     
 }
+
+package clase01;
+
+class Main
+{
+    public static void main(String[] args) 
+    {
+     EcuacionCuadratica ecuacionCuadratica = new EcuacionCuadratica();
+
+     ecuacionCuadratica.establecerA(1);
+     ecuacionCuadratica.establecerB(-2);
+     ecuacionCuadratica.establecerC(-24);
+     
+     System.out.println(ecuacionCuadratica);
+
+    }
+
+}
